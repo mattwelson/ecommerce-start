@@ -3,6 +3,13 @@ import * as SwitchPrimitive from "@radix-ui/react-switch"
 
 import { cn } from "@/lib/utils"
 
+/**
+ * Renders a styled toggle switch component with support for custom classes and all native switch props.
+ *
+ * Combines Radix UI's switch primitives with predefined and customizable styling, including state-based, focus, dark mode, and disabled variants.
+ *
+ * @param className - Optional additional class names to customize the switch's appearance.
+ */
 function Switch({
   className,
   ...props

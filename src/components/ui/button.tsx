@@ -35,6 +35,17 @@ const buttonVariants = cva(
   }
 )
 
+/**
+ * Renders a customizable button with variant and size options.
+ *
+ * Supports rendering as a native button or as a child component using the `Slot` pattern for advanced composition.
+ *
+ * @param variant - Visual style variant of the button (e.g., "default", "destructive", "outline", etc.).
+ * @param size - Size variant of the button (e.g., "default", "sm", "lg", "icon").
+ * @param asChild - If true, renders as a child component using {@link Slot}; otherwise, renders as a native button.
+ *
+ * @returns A styled button element or a custom component with button styles applied.
+ */
 function Button({
   className,
   variant,
