@@ -1,0 +1,22 @@
+{
+  "framework": "react",
+  "typescript": true,
+  "projectName": "ecommerce-start",
+  "mode": "file-router",
+  "tailwind": true,
+  "packageManager": "bun",
+  "toolchain": "biome",
+  "variableValues": {},
+  "git": true,
+  "version": 1,
+  "existingAddOns": [
+    "form",
+    "t3env",
+    "tRPC",
+    "tanstack-query",
+    "shadcn",
+    "start",
+    "store",
+    "tanchat"
+  ]
+}
